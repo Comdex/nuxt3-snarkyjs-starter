@@ -1,6 +1,8 @@
 # Nuxt3 Snarkyjs Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Nuxt3 + SnarkyJs + Naive UI template
+
+Supports automatic introduction of Naive UI components on demand, and you can quickly start snarkyjs-based web applications by cloning the project.
 
 ## Setup
 
@@ -40,3 +42,5 @@ npm run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
