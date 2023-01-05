@@ -1,24 +1,20 @@
 <template>
-    <h1> address proof service</h1>
+    <h1> snarkyjs</h1>
 
     <div>
-        <div>
-            <!-- <button @click="metamaskConnect">Connect</button>
-        <button @click="metamaskSwitchChain">Switch network</button>
-        <button @click="metamaskSign(connectedAddress, 'test.bit')">Sign Message</button>
-        <div>connected: {{ isConnected }}</div>
-        <div>Address: {{ connectedAddress ?? 'null' }}</div> -->
-            <div>Public Key: {{ address }} </div>
-            <button @click="genAddress">genAddress</button>
-        </div>
+       
+        <div>Public Key: {{ address }} </div>
+
+        <n-button type="success" @click="genAddress">
+            genAddress
+        </n-button>
+       
     </div>
 </template>
   
 <script setup>
 import {
-    PublicKey,
     PrivateKey,
-    Field,
 } from 'snarkyjs';
 import ZkappWorkerClient from '../zkapp/zkappWorkerClient';
 
